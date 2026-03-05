@@ -1,4 +1,4 @@
-# Open Tender Agent (TED-only)
+# Open Tender Agent (for [TED](https://ted.europa.eu/))
 
 Open-source Bun + TypeScript CLI for EU public-procurement lead discovery and outreach generation.
 
