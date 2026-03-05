@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+config.yaml
+
+# Build and runtime artifacts
+dist/
+out/
+coverage/
+*.log
+
+# Local state/cache
+state.db
+state.db-shm
+state.db-wal
+*.sqlite
+*.sqlite3
+
+# OS/editor noise
+.DS_Store
+.idea/
+.vscode/

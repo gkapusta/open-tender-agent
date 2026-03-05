@@ -1,0 +1,30 @@
+company:
+  name: "Your Company"
+  website: "https://yourcompany.com"
+  address: "Main Street 1, Brussels, Belgium"
+  language: "en"
+  tone: "warm and informative"
+  services: |
+    Describe your services in detail.
+
+sources:
+  enabled: ["TED"]
+  ted:
+    days_back: 7
+    country_filter: ["BEL"]
+    limit: 200
+
+matching:
+  radius_km: 100
+  require_contact: true
+  min_match_score: 0.55
+
+output:
+  csv_path: "./out/leads.csv"
+  append: true
+  leads_email: "leads@example.com"
+
+geocoding:
+  provider: "nominatim"
+  email: "ops@example.com"
+  country_fallback: true
